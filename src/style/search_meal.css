@@ -1,0 +1,140 @@
+
+.searched_meal{
+    justify-content: space-between;
+    display: flex;
+}
+
+.search1{
+    text-align: center;
+}
+.search2{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.container{
+    overflow: hidden;
+    text-align: center;
+    margin: 10px;
+    height: 170px;
+    width: 150px;
+}
+.container>img{
+    padding:0.6rem;
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+.youtube{
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    color: brown;
+    text-decoration: none;
+}
+.youtube>h1{
+    font-size:xx-large;
+}
+.icon5{
+    margin: 10px;
+    color: red;
+    font-size:100px;
+}
+.container>h1{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search3>h1{
+    text-align: center;
+    color: brown;
+    border: 1px solid brown;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.instruction{
+    padding: 1rem;
+    margin: 10px;
+    font-weight: lighter;
+    font-size: large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+/* CSS */
+.button-3 {
+  text-align: center;
+  justify-content: center;
+  appearance: none;
+  background-color: brown;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: brown;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: brown;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: brown;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+/*-------------responsive------------------*/
+@media screen and (max-width:700px){
+   
+    .searched_meal{
+        justify-content: center;
+        text-align: center;
+        display: block;
+    }
+    .search1{
+        display: block;
+    }
+
+    .button-3{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    
+}
+  
+  

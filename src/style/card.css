@@ -1,0 +1,26 @@
+.card{
+    overflow: hidden;
+    font-size: medium;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid black; */
+    height: 270px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 3px 3px 3px 3px rgb(148, 141, 141);
+}
+
+.card>.card-img>img{
+    margin-top: 10px;
+    width: 200px;
+    height: 50%;
+}
+
+.card>.card-info>h4{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

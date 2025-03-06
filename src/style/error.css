@@ -1,0 +1,19 @@
+.error{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.status,.statustext{
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.status{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.statustext{
+    font-weight: lighter;
+}

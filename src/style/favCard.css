@@ -1,0 +1,48 @@
+.fav-card{
+    overflow: hidden;
+    font-size: medium;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid black; */
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.fav-card:hover{
+    box-shadow: 3px 3px 3px 3px rgb(148, 141, 141);
+}
+
+.fav-card>.fav-card-img>.fav-card-link>img{
+    margin-top: 10px;
+    width: 200px;
+    height: 50%;
+}
+
+.fav-card-link{
+   text-decoration: none;
+   color: white;
+}
+
+.fav-card>.fav-card-info>h4{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fav-card-info{
+    margin-left: 40px;
+    text-align: center;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-6{
+    margin-top:22px;
+    margin-right: 2px;
+    color: black;
+    cursor: pointer;
+}
