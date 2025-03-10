@@ -12,14 +12,14 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-# FROM registry.access.redhat.com/ubi8/nodejs-16
-# COPY . .
-# USER root
-# RUN mkdir -p /opt/app-root/src/.npm
-# RUN chown -R 1001:0 /opt/app-root/src/
-# RUN chmod -R 775 /opt/app-root/src/
-# USER 10014
-# RUN npm install
-# RUN npm run build
-# EXPOSE 3000
-# CMD npm run start
+FROM registry.access.redhat.com/ubi8/nodejs-16
+COPY . .
+USER root
+RUN mkdir -p /opt/app-root/src/.npm
+RUN chown -R 1001:0 /opt/app-root/src/
+RUN chmod -R 775 /opt/app-root/src/
+USER 10014
+RUN npm install
+RUN npm run build
+EXPOSE 3000
+CMD npm run start
